@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-path = "GOOGL_stock_data.csv"
+path = "../data/GOOGL_stock_data.csv"
 df_raw = pd.read_csv(path)
 
 # 1.1
